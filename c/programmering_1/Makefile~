@@ -1,0 +1,13 @@
+CXX = g++
+CFLAGS = -Wall
+NAME_EX = prog_1
+
+all: compile
+
+clean:
+	rm $(NAME)
+	rm *.cpp~
+
+compile: 
+	$(CXX) -o programmering1 main.cpp sbib.cpp $(CFLAGS)
+

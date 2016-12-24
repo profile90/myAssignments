@@ -1,0 +1,18 @@
+#include <iostream>
+
+struct account{
+  char user[50];
+  char password[50];
+}
+  
+int main()
+{
+  struct account account;
+
+ cout << "\nUSER: ";
+ cin << account.user;
+ std::cout << "\nPASS: ";
+ std::cin << account.pass;
+
+ std::cout 
+}
