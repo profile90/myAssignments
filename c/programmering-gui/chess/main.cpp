@@ -1,3 +1,4 @@
+
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <X11/Xos.h>
@@ -96,9 +97,6 @@ void drawBoard(int win_width,  int win_height) {
 
 void
 makeWindow (int selectInput) {
-
-  
-  
   int standardBorder = 1;
   //event handling
   XEvent window_event;
@@ -147,7 +145,7 @@ makeWindow (int selectInput) {
 	    }
 	  
 	}
-
+      
       
     }
 }
